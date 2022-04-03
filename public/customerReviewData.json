@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"Colleen Gregory",
+        "img":"https://randomuser.me/api/portraits/women/12.jpg",
+        "reating":5,
+        "text":"The product provided was absolutely first clas and I am very Happy with the result!."
+
+    },
+    {
+        "id":2,
+        "name":"William Willis",
+        "img":"https://randomuser.me/api/portraits/men/31.jpg",
+        "reating":4.5,
+        "text":"This is wonderful easy to  use, VERY EARY to use services, both clinets and staff."
+
+    },
+    {
+        "id":3,
+        "name":"Mike Dixon",
+        "img":"https://randomuser.me/api/portraits/men/49.jpg",
+        "reating":4,
+        "text":"Exellent services, This is very helpfull with my pre sites enquires. Easy to read and see."
+
+    },
+    {
+        "id":4,
+        "name":"Jonathan Neal",
+        "img":"https://randomuser.me/api/portraits/men/42.jpg",
+        "reating":4.5,
+        "text":"I find this website is very intuitive and easy to teach anyone and it's so smooth, Great!."
+
+    },
+    {
+        "id":5,
+        "name":"Jesse Bailey",
+        "img":"https://randomuser.me/api/portraits/men/30.jpg",
+        "reating":4.5,
+        "text":"You are the awsome developer. I like your code structure and website Design so, Yah! best of look."
+
+    },
+    {
+        "id":6,
+        "name":"Danny Rhodes",
+        "img":"https://randomuser.me/api/portraits/men/62.jpg",
+        "reating":5,
+        "text":"Great initail consulation with with complete and through explanations. Highly recommended. Wish you Best!"
+
+    }
+]

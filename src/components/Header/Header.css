@@ -1,0 +1,20 @@
+
+.logo{
+    width: 140px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #ff4c30;
+}
+.nav-link:nth-child(5){
+    margin-right: 0;
+}
