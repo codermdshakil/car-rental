@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import BannerImg from '../../images/banner_car.png';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle, faArrowAltCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
