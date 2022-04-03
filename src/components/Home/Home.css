@@ -81,7 +81,10 @@
         letter-spacing: -1.56px;
     }
     .banner-img {
-        height: 600px;
+        height: 500px;
+    }
+    .banner-img img {
+        margin-top: 270px;
     }
 }
 

@@ -13,9 +13,9 @@ const Review = ({ review }) => {
             <div className='review-box'>
                 <div className='customer-image-frame'>
                     <img src={img} alt="review_img" />
-                    <div>
+                    <div style={{marginRight:'20px'}}>
                         <h5>{name}</h5>
-                        {reating  < 5 ?<p>{reating} <FontAwesomeIcon className='star' icon={faStarHalfAlt}/></p> : <p>{reating} <FontAwesomeIcon className='star' icon={faStar}/></p>  }
+                        {reating  < 5 ? <p>{reating} <FontAwesomeIcon className='star' icon={faStarHalfAlt}/></p> : <p>{reating} <FontAwesomeIcon className='star' icon={faStar}/></p>  }
                     </div>
                 </div>
                 <div className='customer-commnet'>
