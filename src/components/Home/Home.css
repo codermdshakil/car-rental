@@ -2,6 +2,7 @@
 .banner-img {
     background-image: url('../../images/banner_bg_image.png');
     background-position: top center;
+    background-repeat: no-repeat;
     height: 650px;
     width: 100%;
 }
@@ -59,6 +60,28 @@
     background-color: #fff;
     color: #ff4d30;
 }
+
+.all-review-btn{
+    color: #fff;
+    text-decoration: none;
+    font-family: rubik, Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ff4d30;
+    border: 1px solid #ff4d30;
+    text-transform: capitalize;
+    line-height: 19px;
+    letter-spacing: .32px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+    padding: 15px 26px;
+    transition: .3s ease-in;
+    margin-bottom: 20px;
+}
+.all-review-btn:hover{
+    background-color: #fff;
+    color: #ff4d30;
+}
 /* media queries */
 
 /* medium device  */
@@ -98,7 +121,7 @@
     } 
     .home-titles{
         padding: 5px;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .home-titles h2{
         font-size: 35px;

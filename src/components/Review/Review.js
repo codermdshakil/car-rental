@@ -13,8 +13,8 @@ const Review = ({ review }) => {
             <div className='review-box'>
                 <div className='customer-image-frame'>
                     <img src={img} alt="review_img" />
-                    <div style={{marginRight:'20px'}}>
-                        <h5>{name}</h5>
+                    <div className='details'>
+                        <h6>{name}</h6>
                         {reating  < 5 ? <p>{reating} <FontAwesomeIcon className='star' icon={faStarHalfAlt}/></p> : <p>{reating} <FontAwesomeIcon className='star' icon={faStar}/></p>  }
                     </div>
                 </div>

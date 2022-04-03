@@ -3,14 +3,17 @@ import { Container } from 'react-bootstrap';
 import BannerImg from '../../images/banner_car.png';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle, faArrowAltCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
 
     const [reviews, setReviews] = useReviews();
-    
+
+    const threeReviews = reviews.slice(0, 3);
 
 
     return (
@@ -32,12 +35,23 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='customers-review py-4'>
-                <h2 style={{ textAlign: 'center', padding: '20px 0px' }}>Customers Review (3)</h2>
-                <div className="row">
+            <Container>
+                <div className='customers-review py-4'>
+                    <h2 style={{ textAlign: 'center', padding: '20px 0px' }}>Customers Review (3)</h2>
+                    <div className="row">
+                        {
+                            threeReviews.map(review => <Review
+                                key={review.id}
+                                review={review}
+                            ></Review>)
 
+                        }
+                        <div style={{textAlign:'center'}}>
+                            <Link to={'/reviews'} > <button className='all-review-btn'> See all Reviews <FontAwesomeIcon style={{ marginLeft: '10px' }} icon={faArrowRight} /> </button></Link>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </Container>
         </Container>
     );
 };
