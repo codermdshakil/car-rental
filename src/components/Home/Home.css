@@ -90,9 +90,12 @@
     .banner-img {
         height: 500px;
     }
+    .banner-img img{
+        margin-top: 300px;
+    } 
     .home-titles{
         padding: 5px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     .home-titles h2{
         font-size: 35px;
