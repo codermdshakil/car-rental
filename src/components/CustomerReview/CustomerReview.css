@@ -1,0 +1,30 @@
+
+
+.review-container{
+    margin-top: 120px;
+}
+.review-title {
+    text-align: center;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff4d30;
+}
+
+/* media queries */
+
+/* medium device  */
+@media only screen and (max-width: 1024px){
+    .review-title {
+        width: 70%;
+    }
+}
+
+
+/* small device  */
+@media only screen and (max-width: 768px){
+    .review-title {
+        width: 70%;
+    }
+}

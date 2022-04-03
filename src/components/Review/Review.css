@@ -1,0 +1,31 @@
+
+.review-box{
+    position: relative;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    background-color: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    transition: .3s ease-in;
+}
+.customer-image-frame{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.review-box img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+.star{
+    color:  rgb(231, 81, 0);
+}
+.customer-commnet{
+    margin-top: 20px;
+}
+.review-box:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}

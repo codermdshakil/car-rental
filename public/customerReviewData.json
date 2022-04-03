@@ -19,7 +19,7 @@
         "id":3,
         "name":"Mike Dixon",
         "img":"https://randomuser.me/api/portraits/men/49.jpg",
-        "reating":4,
+        "reating":4.8,
         "text":"Exellent services, This is very helpfull with my pre sites enquires. Easy to read and see."
 
     },
@@ -27,7 +27,7 @@
         "id":4,
         "name":"Jonathan Neal",
         "img":"https://randomuser.me/api/portraits/men/42.jpg",
-        "reating":4.5,
+        "reating":4.7,
         "text":"I find this website is very intuitive and easy to teach anyone and it's so smooth, Great!."
 
     },
@@ -35,7 +35,7 @@
         "id":5,
         "name":"Jesse Bailey",
         "img":"https://randomuser.me/api/portraits/men/30.jpg",
-        "reating":4.5,
+        "reating":4.9,
         "text":"You are the awsome developer. I like your code structure and website Design so, Yah! best of look."
 
     },
@@ -44,7 +44,7 @@
         "name":"Danny Rhodes",
         "img":"https://randomuser.me/api/portraits/men/62.jpg",
         "reating":5,
-        "text":"Great initail consulation with with complete and through explanations. Highly recommended. Wish you Best!"
+        "text":"Great initail consulation with with complete and through explanations. Highly recommended. Best!"
 
     }
 ]
