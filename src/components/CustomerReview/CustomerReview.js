@@ -12,7 +12,7 @@ const CustomerReview = () => {
     return (
         <Container>
             <div className='review-container'>
-                <h3 className='review-title'> Customers Review  </h3>
+                <h3 className='review-title'> Customers Reviews  </h3>
                 <div className='row pt-5'>
                     {
                         reviews.map(review => <Review

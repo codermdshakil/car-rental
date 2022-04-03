@@ -77,6 +77,7 @@
     padding: 15px 26px;
     transition: .3s ease-in;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .all-review-btn:hover{
     background-color: #fff;
@@ -109,6 +110,16 @@
     .banner-img img {
         margin-top: 270px;
     }
+    .home-titles button {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+    .all-review-btn{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 12px 20px;
+    }
 }
 
 /* samll device  */
@@ -136,6 +147,11 @@
         letter-spacing: -1.56px;
     }
     .home-titles button {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 13px 20px;
+    }
+    .all-review-btn{
         font-size: 14px;
         font-weight: 400;
         padding: 13px 20px;

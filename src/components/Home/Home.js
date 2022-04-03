@@ -44,7 +44,6 @@ const Home = () => {
                                 key={review.id}
                                 review={review}
                             ></Review>)
-
                         }
                         <div style={{textAlign:'center'}}>
                             <Link to={'/reviews'} > <button className='all-review-btn'> See all Reviews <FontAwesomeIcon style={{ marginLeft: '10px' }} icon={faArrowRight} /> </button></Link>

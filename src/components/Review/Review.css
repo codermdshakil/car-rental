@@ -13,7 +13,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .review-box img{
     width: 95px;
@@ -29,8 +29,18 @@
 .review-box:hover{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
+.details h6{
+    font-size: 17px;
+    font-weight: 700;
+}
+
 
 /* media queries */
+
+/* medium device  */
+@media only screen and (max-width: 1024px){
+
+}
 
 /* small device  */
 @media only screen and (max-width: 768px){
