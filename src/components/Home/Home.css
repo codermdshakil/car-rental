@@ -1,25 +1,28 @@
 
-.banner-img{
+.banner-img {
     background-image: url('../../images/banner_bg_image.png');
     background-position: top center;
     height: 650px;
     width: 100%;
-
 }
+
 .banner-img img {
     margin-top: 200px;
     width: 100%;
 }
-.home-titles{
+
+.home-titles {
     padding-left: 110px;
 }
-.home-titles h2{
+
+.home-titles h2 {
     color: #010103;
     font-size: 52px;
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -1.56px;
 }
+
 .highLight{
     color: #ff4d30;
     font-size: 52px;
@@ -27,25 +30,85 @@
     line-height: 64px;
     letter-spacing: -1.56px;
 }
-.home-titles p{
+
+.home-titles p {
     color: #817f91;
-    font-family: rubik,Sans-serif;
+    font-family: rubik, Sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -.24px;
 }
-.home-titles button{
+
+.home-titles button {
     color: #fff;
-    font-family: rubik,Sans-serif;
+    font-family: rubik, Sans-serif;
     font-size: 16px;
     font-weight: 500;
     background-color: #ff4d30;
-    border: none;
+    border: 1px solid #ff4d30;
     text-transform: capitalize;
     line-height: 19px;
     letter-spacing: .32px;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
     padding: 15px 26px;
+    transition: .3s ease-in;
+}
+.home-titles button:hover{
+    background-color: #fff;
+    color: #ff4d30;
+}
+/* media queries */
+
+/* medium device  */
+@media only screen and (max-width: 1024px) {
+    .home-titles{
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+
+    .home-titles h2{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -1.56px;
+    }
+    .highLight{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -1.56px;
+    }
+    .banner-img {
+        height: 600px;
+    }
+}
+
+/* samll device  */
+@media only screen and (max-width: 768px) {
+    .banner-img {
+        height: 500px;
+    }
+    .home-titles{
+        padding: 5px;
+        margin-top: 30px;
+    }
+    .home-titles h2{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -1.56px;
+    }
+    .highLight{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -1.56px;
+    }
+    .home-titles button {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 13px 20px;
+    }
 }

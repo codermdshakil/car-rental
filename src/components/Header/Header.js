@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <Navbar bg="light" fixed="top" expand="lg">
+            <Navbar bg="light" className="header" fixed="top" expand="lg">
                 <Container>
                     <Navbar.Brand   href="#home">
                         <img  className='logo' src={logo} alt="logo" />
