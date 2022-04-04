@@ -7,16 +7,18 @@ import { faCheckCircle, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+
+
 
 
 const Home = () => {
 
     const [reviews, setReviews] = useReviews();
-
     const threeReviews = reviews.slice(0, 3);
 
-
     return (
+        <>
         <Container fluid>
             <div className='home-section'>
                 <div className='row d-flex align-items-center'>
@@ -34,7 +36,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
             <Container>
                 <div className='customers-review py-4'>
                     <h2 style={{ textAlign: 'center', padding: '50px 0px' }}>Customers Review (3)</h2>
@@ -45,13 +46,15 @@ const Home = () => {
                                 review={review}
                             ></Review>)
                         }
-                        <div style={{textAlign:'center'}}>
+                        <div style={{ textAlign: 'center' }}>
                             <Link to={'/reviews'} > <button className='all-review-btn'> See all Reviews <FontAwesomeIcon style={{ marginLeft: '10px' }} icon={faArrowRight} /> </button></Link>
                         </div>
                     </div>
                 </div>
             </Container>
         </Container>
+            <Footer></Footer>
+        </>
     );
 };
 

@@ -3,6 +3,7 @@ import './DeshBoard.css';
 import { Container } from 'react-bootstrap';
 import { ResponsiveContainer, LineChart, CartesianGrid, XAxis, YAxis, Line, AreaChart, Area, Legend, BarChart, Bar, PieChart, Pie } from 'recharts';
 import { Tooltip } from 'recharts';
+import Footer from '../Footer/Footer';
 
 
 const DeshBoard = () => {
@@ -84,6 +85,7 @@ const DeshBoard = () => {
                     </div>
                 </div>
             </Container>
+            <Footer></Footer>
         </div>
     );
 };
