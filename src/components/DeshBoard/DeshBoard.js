@@ -11,12 +11,11 @@ const DeshBoard = () => {
     const [datas, setDatas] = useState([]);
 
     useEffect(() => {
-        fetch('chartsData.json')
+        fetch('https://raw.githubusercontent.com/ProgrammingHero1/product-analysis-website/main/data.json')
             .then(res => res.json())
             .then(data => setDatas(data))
 
     }, [])
-
 
 
     return (
