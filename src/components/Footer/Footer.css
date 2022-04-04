@@ -5,11 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .footer-section p{
-    margin-top: 10px;
+    margin-top: 14px;
     color: #fff;
     text-align: center;
 }

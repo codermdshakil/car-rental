@@ -1,0 +1,13 @@
+
+.question-box{
+    margin-bottom: 30px;
+}
+.qa-title{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+.anser{
+    border-bottom: 1px solid black;
+}

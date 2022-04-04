@@ -76,7 +76,7 @@
     box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
     padding: 15px 26px;
     transition: .3s ease-in;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 .all-review-btn:hover{
