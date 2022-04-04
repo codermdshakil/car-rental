@@ -1,0 +1,63 @@
+.db-title{
+    text-align: center;
+    font-size:32px;
+    padding: 70px 0px;
+    margin-top: 60px;
+}
+
+.db-title span {
+    color: #ff4c30;
+    font-weight: bold;
+}
+/* #8884d8 */
+.line-Chart{
+    margin-bottom: 60px;
+}
+.chart-title{
+    color:#8884d8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.area-chart{
+    margin-bottom: 60px;
+}
+.area-chart-title{
+    color:#8884d8;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.bar-Chart{
+    margin-bottom: 60px;
+}
+.bar-title{
+    color:#8884d8;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+
+.pie-chart{
+    margin-bottom: 60px;
+}
+.pie-chart-title{
+    color:#8884d8;
+    text-align: center;
+    margin-bottom: 20px
+}
+/* media queries */
+
+/* medium device  */
+@media only screen and (max-width: 1024px){
+    .db-title{
+        font-size: 30px;
+    }  
+}
+/* small device  */
+@media only screen and (max-width: 768px){
+    .db-title{
+        font-size: 26px;
+    }  
+
+}
+

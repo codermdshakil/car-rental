@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import logo from "../../images/logo.png"
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Header = () => {
@@ -15,12 +15,12 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
-                            <Link to={'/'}  className="nav-link">Home</Link>
-                            <Link to={'/reviews'}  className="nav-link">Review</Link>
-                            <Link to={'/deshboard'} className="nav-link" >DeshBoard</Link>
-                            <Link to={'/blogs'} className="nav-link" >Blogs</Link>
-                            <Link to={'/about'} className="nav-link" >About</Link>
+                        <Nav className="ms-auto nav-links">
+                            <NavLink to={'/'}  className="nav-link">Home</NavLink>
+                            <NavLink to={'/reviews'}  className="nav-link">Review</NavLink>
+                            <NavLink to={'/deshboard'} className="nav-link" >DeshBoard</NavLink>
+                            <NavLink to={'/blogs'} className="nav-link" >Blogs</NavLink>
+                            <NavLink to={'/about'} className="nav-link" >About</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

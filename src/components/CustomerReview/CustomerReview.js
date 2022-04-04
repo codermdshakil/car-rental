@@ -7,7 +7,6 @@ import './CustomerReview.css';
 const CustomerReview = () => {
 
     const [reviews, setReviews] = useReviews();
-    console.log(reviews);
 
     return (
         <Container>

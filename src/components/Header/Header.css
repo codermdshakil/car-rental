@@ -21,3 +21,7 @@
 .nav-link:nth-child(5){
     margin-right: 0;
 }
+
+a.active{
+    color: red;
+}
