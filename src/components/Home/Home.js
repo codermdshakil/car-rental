@@ -7,7 +7,6 @@ import { faCheckCircle, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
-import PieCharts from '../PieCharts/PieCharts';
 
 
 const Home = () => {
