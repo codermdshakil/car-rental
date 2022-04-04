@@ -9,8 +9,8 @@ const About = () => {
         <div>
             <Container>
                 <div className="row">
-                    <div className="col-lg-10">
-                        <h4 className='about-title'># About of Car Rental website</h4>
+                    <div className="col-lg-10 col-md-10 col-11 d-block m-auto ">
+                        <h4 className='about-title'># About of <b>Car Rental</b> website</h4>
                         <ul>
                             <li>This is a Car Review website. In this website I'm used HTML5, CSS3, Bootstrap5, JavaScript and JavaScript library React.</li>
                             <li>In this website for icon I'm used FontAwsome icons</li>

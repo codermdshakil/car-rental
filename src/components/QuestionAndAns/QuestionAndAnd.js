@@ -18,7 +18,7 @@ const QuestionAndAnd = () => {
                             <h5><b>Question 2. </b> What is Sementic tag ?</h5>
                             <p> <b className='anser'>Answer : </b>Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page.  HTML5 semantic tags define the purpose of the element. By using semantic markup, you help the browser understand the meaning of the content instead of just displaying it. By providing this extra level of clarity, HTML5 semantic elements also help search engines to read the page and find the required information faster. <b> Examples</b> of semantic elements: <b> {'<form> , <table> , and <article>'}</b> - Clearly defines its content.</p>
                         </div>
-                        <div className="question-box">
+                        <div className="question-box3">
                             <h5><b>Question 3. </b> What is the different between Inline Block and Inline Block elements ?</h5>
                             <p> <b className='anser'>Answer : </b>One common use for display: inline-block is to display list items horizontally instead of vertically. <b>display: inline-block</b> allows to set a width and height on the element. Also, with display: inline-block, the top and bottom margins/paddings are respected.  An inline element does not start on a new line and it only takes up as much width as necessary. The {'<div> '}element is a block-level and is often used as a container for other HTML elements. <b>Example </b> of Inline-Block  elements: {' <span>, <a>, <code>, <strong>, <img>, <cite>, <button>, <input>, <textarea>, <select>, <small> are some of the inline tags.'}</p>
                         </div>
