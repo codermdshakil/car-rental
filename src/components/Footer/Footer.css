@@ -15,6 +15,11 @@
 }
 .developer a{
     text-decoration: none;
-    color: black;
+    color: #eb3216;
     font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.developer a:hover{
+    color: #eb3216;
 }
